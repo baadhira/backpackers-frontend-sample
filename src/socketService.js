@@ -4,7 +4,12 @@ import openSocket from 'socket.io-client'
 import { activeChatAction } from './stateManagement/actions';
 import { store } from './stateManagement/store';
 
-const SOCKET_URL='http://127.0.0.1:9000'
+// const SOCKET_URL='http://127.0.0.1:9000'
+
+
+const SOCKET_URL='https://chat-nodejs-baadhira.herokuapp.com/'
+
+
 let socket;
 
 const SocketService=()=>{
