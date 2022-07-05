@@ -108,11 +108,11 @@ export const SearchUser = ({ searchTerm, searchResult,hide,setHide,clearSearch }
                 ev.username
                   .toString()
                   .toLowerCase()
-                  .includes(searchTerm.toLowerCase()) ||
-                ev.born_location
-                  .toString()
-                  .toLowerCase()
-                  .includes(searchTerm.toLowerCase())
+                  .includes(searchTerm.toLowerCase()) 
+                // ev.born_location
+                //   .toString()
+                //   .toLowerCase()
+                //   .includes(searchTerm.toLowerCase())
               ) {
                 return <h2>val</h2>;
               }
